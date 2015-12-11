@@ -25,7 +25,7 @@
 ﻿[![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs) [![Bountysource](https://www.bountysource.com/badge/team?team_id=11914&style=bounties_posted)](https://www.bountysource.com/teams/cdnjs/bounties?utm_source=cdnjs&utm_medium=shield&utm_campaign=bounties_posted)
 
 
-[cdnjs](https://github.com/cdnjs/cdnjs) is the repository mirroring all library assets on [cdnjs.cloudflare.com](https://cdnjs.cloudflare.com).
+[cdnjs](https://github.com/cdnjs/cdnjs) 在存储库上的所有镜像库资源 [cdnjs.cloudflare.com](https://cdnjs.cloudflare.com).
 
 [Thomas Davis](https://twitter.com/neutralthoughts) and [Ryan Kirkman](https://twitter.com/ryan_kirkman) created cdnjs, [Drew Freyling](http://decompile.it/blog/) and [Peter Dave Hello](https://github.com/PeterDaveHello) are maintainers. [Juan Gallardo](http://jgallardo.me/) is our community moderator.
 
@@ -53,7 +53,8 @@ cdnjs 依赖于用户提交的请求和自动更新通过 `npm` 来填充和更�
 
 要添加新的库，或更新现有库 `npm`, start by [forking the cdnjs repo](https://github.com/cdnjs/cdnjs/fork) 你自己的GitHub账户。
 
-If you're adding/modifying outside of the GitHub browser interface, for example on the command line or with the GitHub desktop application, you will need to additionally install `node` locally. For more information on installing `node`, please refer to [nodejs.org](https://nodejs.org).
+如果你在命令行或GitHub的桌面应用程序加入GitHub的浏览器界面/修改之外，例如，你需要另外安装 `node` 局部。有关安装的更多信息
+ `node`, 请参阅 [nodejs.org](https://nodejs.org).
 
 When you have forked the cdnjs repo, add your library to it. Libraries are stored in the `ajax/libs` directory. Each library has its own subdirectory of `ajax/libs` and each version of the library has its own subdirectory of the library directory name, for example:
 
