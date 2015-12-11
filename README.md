@@ -1,26 +1,26 @@
-# cdnjs Library Repository
+# cdnjs图书馆知识库
 
-Master branch build status:
+主分支构建状态:
 
 ﻿[![Circle CI](https://circleci.com/gh/cdnjs/cdnjs.svg?style=svg)](https://circleci.com/gh/cdnjs/cdnjs)
 
-Dependencies status:
+依赖状态:
 
 ﻿[![Dependency Status](https://david-dm.org/cdnjs/cdnjs.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs) [![devDependency Status](https://david-dm.org/cdnjs/cdnjs/dev-status.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs#info=devDependencies)
 
-License:
+许可证:
 
 ﻿[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/cdnjs/cdnjs/blob/master/MIT-LICENSE)
 
-Gitter chat room:
+格子的聊天室:
 
 ﻿[![Gitter chat](https://badges.gitter.im/cdnjs/cdnjs.svg)](https://gitter.im/cdnjs/cdnjs)
 
-﻿Issue stats:
+﻿问题统计:
 
 ﻿[![Issue Stats](http://www.issuestats.com/github/cdnjs/cdnjs/badge/pr?style=flat)](http://www.issuestats.com/github/cdnjs/cdnjs) [![Issue Stats](http://www.issuestats.com/github/cdnjs/cdnjs/badge/issue?style=flat)](http://www.issuestats.com/github/cdnjs/cdnjs)
 
-Donation:
+捐赠:
 
 ﻿[![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs) [![Bountysource](https://www.bountysource.com/badge/team?team_id=11914&style=bounties_posted)](https://www.bountysource.com/teams/cdnjs/bounties?utm_source=cdnjs&utm_medium=shield&utm_campaign=bounties_posted)
 
@@ -29,28 +29,29 @@ Donation:
 
 [Thomas Davis](https://twitter.com/neutralthoughts) and [Ryan Kirkman](https://twitter.com/ryan_kirkman) created cdnjs, [Drew Freyling](http://decompile.it/blog/) and [Peter Dave Hello](https://github.com/PeterDaveHello) are maintainers. [Juan Gallardo](http://jgallardo.me/) is our community moderator.
 
-cdnjs will host any production version of any JavaScript/CSS library, subject to license permissions.
+cdnjs将任何JavaScript和CSS库的任何生产版本，受许可权限。
 
-  * Libraries must have notable popularity: 100 stars or watchers on GitHub is a good example, but as long as reasonable popularity can be demonstrated the library will be added.
-  * Beta, release candidate and alpha releases are not usually considered ready for full production status. Requests for pre-release versions of libraries _may_ be declined after peer review.
-  * We'll accept beta, release candidate and alpha releases if you are using our npm/git auto-update mechanism, if you really want it, please setup auto-update for that lib.
+  * 图书馆必须有显著的受欢迎程度：GitHub上的100颗星或观察者是一个很好的例子，但只要合理的普及可以证明图书馆将增加.
+  * 测试版，发布候选和alpha版本通常不考虑准备充分的生产状态。图书馆预发行版本的请求 _may_ 同行评议后予以拒绝.
+  * 如果你使用我们的话，我们将接受测试，释放候选人和alpha 版本 releases if you are using our npm/git 自动更新机制，如果你真的想要它，请安装自动更新为自由库。
 
-Please raise a new pull request for new library additions and existing library updates, following the instructions below.
+请提出一个新的请求，为新的库增加和现有的图书馆更新，下面的说明如下。
 
-## IMPORTANT - No more manual submissions
+## IMPORTANT - 没有更多的手工提交
 
 [Discussion](https://github.com/cdnjs/cdnjs/issues/3638)
 
-It's time for us to move away from manual submissions and focus solely on getting libraries updating from official sources. Everything is still flakey and we hope you can bear with us in this transition.
+是我们从手工提交的文件中移走的时候了，并把重点放在从官方渠道获取图书馆的更新。一切都是古怪的，我们希望你能原谅我们在这个转型。
+
 
 *All pull requests should just add auto update configs to the package.json*
 
 
-## Adding a new or updating an existing library
+## 有关新的或更新现有的图书馆
 
-cdnjs relies on user-submitted pull requests and automatic updating via `npm` to populate and update libraries.
+cdnjs 依赖于用户提交的请求和自动更新通过 `npm` 来填充和更新库。
 
-To add a new library, or update an existing library outside of `npm`, start by [forking the cdnjs repo](https://github.com/cdnjs/cdnjs/fork) to your own GitHub account.
+要添加新的库，或更新现有库 `npm`, start by [forking the cdnjs repo](https://github.com/cdnjs/cdnjs/fork) 你自己的GitHub账户。
 
 If you're adding/modifying outside of the GitHub browser interface, for example on the command line or with the GitHub desktop application, you will need to additionally install `node` locally. For more information on installing `node`, please refer to [nodejs.org](https://nodejs.org).
 
@@ -63,7 +64,7 @@ When you have forked the cdnjs repo, add your library to it. Libraries are store
 [**@IonicaBizau**](https://github.com/IonicaBizau) wrote a NodeJS command line tool for automating the
 adding process of a new library. This tool [is named *cdnjs-importer* and it's open source](https://github.com/cdnjs/cdnjs-importer).
 
-The basic usage is:
+基本用法是:
 
 ```sh
 $ npm install -g cdnjs-importer
