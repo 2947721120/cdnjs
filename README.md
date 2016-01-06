@@ -237,38 +237,37 @@ The auto-update process will look for `dist` inside the named tarball and copy a
 
 ## API
 
-You can search cdnjs via our API:
+您可以通过我们的API搜索cdnjs：
 
 ```
 https://api.cdnjs.com/libraries
 ```
 
-Without any query parameters it will return the name and main file URL of every library on cdnjs. To search, use:
+没有任何查询参数，将返回名称和cdnjs每个库的主要文件的URL。要搜索，使用：
 
 ```
 https://api.cdnjs.com/libraries?search=jquery
 ```
 
-API will reture minified result by default, if you wanna have a human readable result, try `output=human` like this:
+API将范围缩小返回的结果，在默认情况下，如果你想有一个类可读的结果，尝试输出=是这样的： `output=human` like this:
 
 ```
 https://api.cdnjs.com/libraries?output=human
 https://api.cdnjs.com/libraries?search=jquery&output=human
 ```
 
-If you would like more data, use the fields parameter which takes comma-separated values:
-
+如果您想了解更多的资料，使用的字段参数，它采用逗号分隔值：
 ```
 https://api.cdnjs.com/libraries?search=jquery&fields=version,description
 ```
 
-To get a list of all files for that library, use the assets field:
+要获取该库的所有文件的列表，使用资产领域：
 
 ```
 https://api.cdnjs.com/libraries?search=jquery&fields=assets
 ```
 
-Other fields available are:
+可用其他领域有：
 
 ```
 version
@@ -279,8 +278,8 @@ maintainers
 assets
 ```
 
-The API is served over Cloudflare with a six-hour expiry for requests.
+该API服务过的CloudFlare了六小时的到期请求。
 
-## Extensions, Plugins, Resources
+## 扩展，插件，资源
 
 [Extensions, Plugins, Resources](https://github.com/cdnjs/cdnjs/wiki/Extensions%2C-Plugins%2C-Resources)
