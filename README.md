@@ -270,12 +270,12 @@ https://api.cdnjs.com/libraries?search=jquery&fields=assets
 可用其他领域有：
 
 ```
-version
-description
-homepage
-keywords
-maintainers
-assets
+version(版本)
+description(描述)
+homepage(主页)
+keywords(关键词)
+maintainers(维护人员)
+assets(文件)
 ```
 
 该API服务过的CloudFlare了六小时的到期请求。
