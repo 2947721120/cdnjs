@@ -1,4 +1,4 @@
-﻿# a temporary version of the contributing doc
+﻿#临时版本的贡献文件
 
 ## MENU
 
